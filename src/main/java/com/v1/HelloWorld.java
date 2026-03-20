@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
-public class helloWorld {
+public class HelloWorld {
 
     @GetMapping
     public String hello() {
@@ -18,5 +18,7 @@ public class helloWorld {
     public String world(){
         return "world";
     }
+
+
 
 }
