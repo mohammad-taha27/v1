@@ -19,7 +19,7 @@ public class HelloWorldTest {
     void testHelloEndpoint() throws Exception{
         mockMvc.perform(get(("/")))
                 .andExpect(status().isOk())
-                .andExpect(content().string("hell"));
+                .andExpect(content().string("hello"));
     }
 
     @Test
